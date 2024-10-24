@@ -1,17 +1,8 @@
-WUTTHIPONG JONGKASIKAM
-วุฒิพงศ์ จงกสิกรรม
-66112189
-Nickname : P
-DATE : 2 OCTOBER 2004
-DHURAKIJ PUNDIT UNIVERSITY
+วุฒิพงศ์ จงกสิกรรม 66112189
+ณัฐพนธ์  สมสุข 66111925
 
-HTML / CSS
+Branch
+-Main
+-Zaeler-wut-patch-3
 
-My Hobbies
-- PLAYGAME
-- WATCHING YOUTUBE
-- EXERCISE
-
-My WORKS
--CODING FOR METAVERSE
--ARDUINO
+ใช้ Branch  "Main"  ในการดำเนินการ
