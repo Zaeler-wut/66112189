@@ -54,20 +54,23 @@
             <img src="33.jpg" alt="Profile 1">
             <h3>Profile 1</h3>
             <p>Wutthipong Jongkasikam</p>
-            <button onclick="selectProfile('Profile 1')">เลือกโปรไฟล์นี้</button>
+            <button onclick="selectProfile(1)">เลือกโปรไฟล์นี้</button>
         </div>
         <div class="profile">
             <img src="mos1.jpg" alt="Profile 2">
             <h3>Profile 2</h3>
-            <p>      Nattapon  Somsook      </p>
-            <button onclick="selectProfile('Profile 2')">เลือกโปรไฟล์นี้</button>
+            <p>Nattapon Somsook</p>
+            <button onclick="selectProfile(2)">เลือกโปรไฟล์นี้</button>
         </div>
     </div>
 
     <script>
-        function selectProfile(profileName) {
-            alert("คุณเลือก: " + profileName);
-            // สามารถเพิ่มการทำงานเพิ่มเติมที่นี่ เช่นเปลี่ยนหน้าไปยังโปรไฟล์ที่เลือก
+        function selectProfile(profileId) {
+            if (profileId === 1) {
+                window.location.href = 'http://127.0.0.1:5500/66112189/page1.html';
+            } else if (profileId === 2) {
+                window.location.href = 'http://127.0.0.1:5500/66111925/index.html'; // ถ้าต้องการให้ไปที่ page2.html สำหรับโปรไฟล์ 2
+            }
         }
     </script>
 </body>
