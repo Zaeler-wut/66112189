@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+        }
+        .profile-container {
+            display: flex;
+            width: 300px;
+            gap: 20px;
+        }
+        .profile {
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: white;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        .profile h3 {
+            margin: 10px 0;
+        }
+        .profile button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .profile button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile">
+            <img src="33.jpg" alt="Profile 1">
+            <h3>Profile 1</h3>
+            <p>Wutthipong Jongkasikam</p>
+            <button onclick="selectProfile('Profile 1')">เลือกโปรไฟล์นี้</button>
+        </div>
+        <div class="profile">
+            <img src="mos1.jpg" alt="Profile 2">
+            <h3>Profile 2</h3>
+            <p>      Nattapon  Somsook      </p>
+            <button onclick="selectProfile('Profile 2')">เลือกโปรไฟล์นี้</button>
+        </div>
+    </div>
+
+    <script>
+        function selectProfile(profileName) {
+            alert("คุณเลือก: " + profileName);
+            // สามารถเพิ่มการทำงานเพิ่มเติมที่นี่ เช่นเปลี่ยนหน้าไปยังโปรไฟล์ที่เลือก
+        }
+    </script>
+</body>
+</html>
